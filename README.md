@@ -22,9 +22,7 @@ Provides a high-level business summary through KPI cards and interactive visuali
 
 Provides deeper analytical insights into customer behavior, pricing patterns, listing distribution, minimum stay requirements, and city-wise performance through advanced visualizations.
 
----
 
-# Cover Image
 
 ![Cover Image](Images/CoverPhoto.png)
 
