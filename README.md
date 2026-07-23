@@ -71,4 +71,30 @@ Airbnb-DataAnalytics-Dashboard
 - **Pandas** – Data manipulation and transformation
 - **Google Looker Studio (Google Data Studio)** – Interactive dashboard development and visualization
 
+---
 
+# Data Dictionary
+
+The following table describes the columns available in the cleaned Airbnb dataset used for analysis and dashboard development.
+
+| Column Name | Description | Data Type |
+|-------------|-------------|-----------|
+| `id` | Unique identifier for each Airbnb listing | Integer |
+| `name` | Name or title of the Airbnb listing | Text |
+| `host_id` | Unique identifier of the host | Integer |
+| `host_name` | Name of the Airbnb host | Text |
+| `neighbourhood` | Neighborhood where the listing is located | Text |
+| `latitude` | Latitude coordinate of the property | Decimal |
+| `longitude` | Longitude coordinate of the property | Decimal |
+| `room_type` | Type of accommodation offered | Text |
+| `price` | Nightly rental price of the listing | Decimal |
+| `minimum_nights` | Minimum number of nights required for booking | Integer |
+| `number_of_reviews` | Total number of customer reviews received | Integer |
+| `last_review` | Date of the most recent customer review | Date |
+| `reviews_per_month` | Average number of reviews received per month | Decimal |
+| `calculated_host_listings_count` | Number of active listings owned by the host | Integer |
+| `availability_365` | Number of days the listing is available in a year | Integer |
+| `number_of_reviews_ltm` | Number of reviews received during the last 12 months | Integer |
+| `license` | Registration or license information of the listing | Text |
+| `city` | City where the Airbnb listing is located | Text |
+| `scrape_date` | Date on which the dataset was collected | Date |
