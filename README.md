@@ -390,3 +390,13 @@ Overall, this project demonstrates how data cleaning, preprocessing, and interac
 ---
 
 *Generated for Airbnb Data Analytics Dashboard Project.*
+
+---
+
+# Acknowledgement
+
+I would like to express my sincere gratitude to **Classroom Tech** for providing the learning resources, practical assignments, and the opportunity to work on this real-world data analytics project. The structured curriculum and hands-on learning approach played a vital role in strengthening my understanding of data cleaning, exploratory data analysis (EDA), and business intelligence using industry-standard tools.
+
+I am especially thankful to **Satyaki Das** for his exceptional guidance, mentorship, and continuous support throughout this project. His practical insights, constructive feedback, and constant encouragement significantly enhanced my technical skills, analytical thinking, and confidence in solving real-world business problems. This project has been a valuable learning experience, and I am truly grateful for his guidance throughout my journey toward becoming a Data Analyst.
+
+---
