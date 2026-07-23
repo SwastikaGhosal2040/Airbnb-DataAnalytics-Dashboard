@@ -336,26 +336,31 @@ The Detailed Analytical Insights dashboard explores relationships between pricin
 
 
 
+# Focus Outcomes
 
-# Project Outcomes
+## Dashboard 1 – Executive Overview Dashboard
 
-This project demonstrates the complete workflow of a data analytics project, from raw data preprocessing to interactive dashboard development. The following outcomes were achieved during the project:
+The primary focus of the Executive Overview Dashboard is to provide stakeholders with a high-level understanding of the Airbnb marketplace through key performance indicators and summary visualizations. The dashboard focuses on:
 
-- Cleaned and preprocessed a raw Airbnb dataset containing over **290,000 records**, resulting in a high-quality analytical dataset of **50,000 cleaned listings**.
+- Presenting key business metrics, including Total Listings, Active Hosts, Average Price, Average Reviews, Average Availability, and Minimum Stay.
+- Comparing average listing prices across different room types to understand pricing strategies.
+- Analyzing the distribution of Airbnb listings by room type to identify the most preferred accommodation category.
+- Visualizing the geographical distribution of listings across five major cities using an interactive map.
+- Comparing average annual availability across cities to evaluate listing accessibility and occupancy potential.
+- Examining the annual availability distribution to understand how frequently properties remain available throughout the year.
+- Providing an executive-level overview that enables quick business assessment and supports strategic decision-making.
 
-- Performed data quality checks, including missing value treatment, data type conversion, duplicate validation, statistical analysis, and price outlier removal using **Pandas**.
+## Dashboard 2 – Detailed Analytical Insights Dashboard
 
-- Documented the complete data preprocessing workflow using **Google Colab (Jupyter Notebook)** and published the notebook on both **Google Colab** and **Kaggle** for reproducibility.
+The Detailed Analytical Insights Dashboard focuses on exploring relationships within the Airbnb dataset through comparative and analytical visualizations. The dashboard focuses on:
 
-- Developed an interactive **two-page Airbnb Analytics Dashboard** using **Google Looker Studio (Google Data Studio)** to visualize key business metrics and support data-driven decision-making.
-
-- Designed multiple business intelligence visualizations, including KPI scorecards, bar charts, scatter plots, donut charts, geo maps, treemaps, matrices, and distribution charts.
-
-- Identified meaningful business insights related to pricing strategies, room type preferences, customer engagement, listing availability, and city-wise market performance.
-
-- Applied industry-standard data analytics practices, including data cleaning, exploratory data analysis (EDA), dashboard design, and business insight generation.
-
-- Published the complete project on **GitHub**, including the cleaned dataset, preprocessing notebooks, dashboard screenshots, documentation, and supporting resources to create a reproducible analytics portfolio project.
+- Investigating the relationship between listing prices and customer reviews to identify pricing and engagement patterns.
+- Comparing average minimum stay requirements across different room types.
+- Analyzing the contribution of each city to the overall review volume through city-wise review share.
+- Examining listing distribution across cities and room types using matrix and treemap visualizations.
+- Identifying dominant room types within each city to understand accommodation preferences.
+- Supporting detailed market comparison by enabling stakeholders to evaluate city-level and room type-level performance.
+- Facilitating deeper business analysis that complements the executive insights provided in Dashboard 1.
 
 ---
 
