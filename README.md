@@ -337,7 +337,7 @@ The Detailed Analytical Insights dashboard explores relationships between pricin
 ---
 
 
----
+
 
 # Project Outcomes
 
@@ -362,7 +362,7 @@ This project demonstrates the complete workflow of a data analytics project, fro
 ---
 
 
----
+
 
 # Business Conclusions
 
