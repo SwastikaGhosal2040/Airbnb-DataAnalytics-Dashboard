@@ -360,3 +360,28 @@ This project demonstrates the complete workflow of a data analytics project, fro
 - Published the complete project on **GitHub**, including the cleaned dataset, preprocessing notebooks, dashboard screenshots, documentation, and supporting resources to create a reproducible analytics portfolio project.
 
 ---
+
+
+---
+
+# Business Conclusions
+
+Based on the analysis of **50,000 Airbnb listings** across five major cities, several meaningful business insights were identified regarding pricing strategies, customer engagement, accommodation preferences, and property availability.
+
+- **Entire homes/apartments** dominate the Airbnb marketplace, representing the largest share of listings across all analyzed cities.
+
+- **Hotel rooms** command the highest average nightly price, while **Private rooms** and **Shared rooms** provide more affordable accommodation options for budget-conscious travelers.
+
+- Customer reviews are **not strongly correlated with listing price**, indicating that guest satisfaction and listing quality play a more significant role than premium pricing in attracting reviews.
+
+- **Rome** and **London** demonstrate the highest levels of customer engagement, contributing the largest share of total reviews among the analyzed cities.
+
+- **Bangkok** exhibits the highest average annual availability, whereas **Amsterdam** shows comparatively lower availability, suggesting stronger occupancy rates.
+
+- Minimum stay requirements vary considerably across room types, with **Entire homes/apartments** requiring the longest average stays and **Hotel rooms** offering the greatest booking flexibility.
+
+- The dashboard enables stakeholders to identify market trends, compare city-level performance, evaluate room type distribution, and support data-driven pricing and inventory decisions.
+
+Overall, this project demonstrates how data cleaning, preprocessing, and interactive business intelligence dashboards can transform raw Airbnb listing data into actionable insights that support strategic decision-making for hosts, property managers, and business stakeholders.
+
+---
