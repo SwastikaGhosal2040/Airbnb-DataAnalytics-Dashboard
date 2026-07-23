@@ -98,3 +98,30 @@ The following table describes the columns available in the cleaned Airbnb datase
 | `license` | Registration or license information of the listing | Text |
 | `city` | City where the Airbnb listing is located | Text |
 | `scrape_date` | Date on which the dataset was collected | Date |
+
+
+---
+
+# Data Cleaning Notes
+
+The following table summarizes the data preprocessing and cleaning activities performed on the Airbnb dataset before developing the dashboard.
+
+| Column Name | Activities |
+|-------------|------------|
+| `neighbourhood_group` | Removed the column because it contained entirely missing values and did not contribute to the analysis. |
+| `host_name` | Missing values were replaced with **"Unknown"**. |
+| `last_review` | Converted from text to **Date** format (`datetime`). Missing values were intentionally retained because they represent listings with no reviews. |
+| `scrape_date` | Converted from text to **Date** format (`datetime`). |
+| `reviews_per_month` | Verified that missing values corresponded to listings with zero reviews, then replaced missing values with **0**. |
+| `price` | Records containing missing prices were removed since price is a critical analytical attribute. |
+| `license` | Missing values were replaced with **"Not Available"**. |
+| **Entire Dataset** | Checked for duplicate records. No duplicate rows were found. |
+| **Entire Dataset** | Verified remaining missing values after cleaning. |
+| **Entire Dataset** | Generated a reproducible random sample of **50,000** records using `random_state=42`. |
+| `price` | Performed statistical analysis using descriptive statistics and quantiles to identify extreme values. |
+| `price` | Removed price outliers by retaining listings with a price less than or equal to **6188**. |
+| **Entire Dataset** | Generated a new random sample of **50,000** cleaned records after outlier removal. |
+| **Entire Dataset** | Validated dataset structure, data types, missing values, and duplicate records before export. |
+| **Entire Dataset** | Exported the final cleaned dataset as **Airbnb_CleanData.csv** for dashboard development. |
+
+---
