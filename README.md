@@ -59,3 +59,14 @@ Airbnb-DataAnalytics-Dashboard
 │
 └── README.md
 ```
+
+# Tools & Technologies
+
+- **Kaggle** – Dataset acquisition
+- **Google Sheets** – Data validation and preparation
+- **Microsoft Excel** – Performed additional exploration and verification
+- **Google Colab** – Data cleaning and preprocessing
+- **Pandas** – Data manipulation and transformation
+
+
+- **Google Looker Studio (Google Data Studio)** – Interactive dashboard development and visualization
