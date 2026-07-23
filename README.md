@@ -1,7 +1,7 @@
 <h1 align="center">Airbnb Data Analytics Dashboard</h1>
 
 <p align="center">
-An interactive business intelligence dashboard developed using <b>Google Sheets</b> and <b>Google Looker Studio (formerly Google Data Studio)</b> to analyze Airbnb listing performance, pricing strategies, customer engagement, room type distribution, and property availability across five major cities.
+An interactive business intelligence dashboard developed using <b>Python (Pandas)</b>, <b>Google Colab</b>, <b>Google Sheets</b>, <b>Microsoft Excel</b>, and <b>Google Looker Studio (formerly Google Data Studio)</b> to analyze Airbnb listing performance, pricing strategies, customer engagement, room type distribution, and property availability across five major cities.
 </p>
 
 ---
