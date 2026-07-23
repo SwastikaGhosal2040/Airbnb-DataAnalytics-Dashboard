@@ -118,3 +118,118 @@ The following table summarizes the data cleaning and preprocessing activities pe
 | `license` | Replaced missing values with **"Not Available"**. |
 
 ---
+
+
+---
+
+# Executive Overview Dashboard
+
+The Executive Overview dashboard provides a high-level summary of Airbnb listing performance across five major cities. It enables stakeholders to monitor key business metrics, compare pricing strategies, evaluate listing distribution, analyze property availability, and identify geographical trends through interactive visualizations.
+
+## Dashboard Preview
+
+![Executive Overview Dashboard](Images/Dashboard_Page1.png)
+
+---
+
+## A. Key Insights
+
+### 1. KPI Summary
+
+- The dataset contains **50,000 Airbnb listings** managed by **29,829 active hosts**.
+- The average listing price across all cities is **₹421.82**.
+- The average minimum stay requirement is **7.15 nights**.
+- The listings have accumulated approximately **2 million customer reviews**, indicating strong customer engagement.
+- On average, each listing receives **40.49 reviews**, with **1.14 reviews per month**.
+- Properties remain available for an average of **227 days per year**, indicating moderate annual occupancy.
+
+---
+
+### 2. Average Listing Price by Room Type
+
+- **Hotel rooms** have the highest average listing price (₹810).
+- **Entire homes/apartments** are the second most expensive accommodation type.
+- **Private rooms** and **Shared rooms** are comparatively more affordable, making them attractive to budget-conscious travelers.
+
+---
+
+### 3. Listing Share by Room Type
+
+- **Entire homes/apartments** dominate the marketplace with approximately **35,000 listings**.
+- **Private rooms** represent the second-largest accommodation category.
+- **Shared rooms** and **Hotel rooms** account for only a small fraction of total listings.
+
+---
+
+### 4. Listings by City (Geo Map)
+
+- Listing availability varies significantly across cities.
+- Some metropolitan cities have a much larger concentration of Airbnb properties, indicating stronger market penetration.
+- The geographical visualization clearly highlights regional differences in listing density.
+
+---
+
+### 5. Average Availability (Days) by City
+
+- **Bangkok** has the highest average annual availability (**276 days**).
+- **Rome** and **Barcelona** show similar availability levels.
+- **London** has slightly lower availability.
+- **Amsterdam** has the lowest average availability, suggesting comparatively higher occupancy.
+
+---
+
+### 6. Annual Availability Distribution
+
+- Property availability is distributed across the entire year.
+- A large number of listings remain available for **340–365 days**, indicating many properties operate almost year-round.
+- Moderate availability ranges also contain a substantial number of listings, reflecting diverse host availability strategies.
+
+---
+
+## B. Analytical Recommendations
+
+### KPI Summary
+
+- Monitor average pricing and occupancy trends regularly to identify market shifts.
+- Improve host engagement initiatives to increase customer reviews and listing activity.
+- Track average availability to better understand seasonal demand patterns.
+
+---
+
+### Average Listing Price by Room Type
+
+- Premium hotel rooms should continue targeting high-value travelers.
+- Private and shared rooms can be promoted to budget travelers through pricing campaigns.
+- Dynamic pricing strategies can help maximize revenue across different accommodation types.
+
+---
+
+### Listing Share by Room Type
+
+- Encourage growth in underrepresented accommodation categories such as hotel rooms and shared rooms.
+- Expand the supply of high-demand property types while maintaining a balanced marketplace.
+- Analyze customer demand before increasing inventory in less popular room categories.
+
+---
+
+### Listings by City
+
+- Prioritize marketing investments in cities with high listing concentrations.
+- Develop targeted growth strategies for cities with lower Airbnb market penetration.
+- Use geographic performance monitoring to optimize regional business decisions.
+
+---
+
+### Average Availability (Days) by City
+
+- Investigate why Bangkok listings remain available longer and whether occupancy can be improved.
+- Study Amsterdam's comparatively lower availability to identify successful booking patterns.
+- Adjust promotional campaigns according to city-specific occupancy behavior.
+
+---
+
+### Annual Availability Distribution
+
+- Encourage hosts with extremely high availability to optimize pricing during low-demand periods.
+- Identify seasonal booking opportunities to reduce prolonged vacancies.
+- Develop occupancy-focused promotional campaigns for listings with consistently high availability.
