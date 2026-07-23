@@ -388,3 +388,5 @@ Based on the analysis of **50,000 Airbnb listings** across five major cities, se
 Overall, this project demonstrates how data cleaning, preprocessing, and interactive business intelligence dashboards can transform raw Airbnb listing data into actionable insights that support strategic decision-making for hosts, property managers, and business stakeholders.
 
 ---
+
+*Generated for Airbnb Data Analytics Dashboard Project.*
