@@ -35,6 +35,7 @@ Provides deeper analytical insights into customer behavior, pricing patterns, li
 | Attribute | Details |
 |------------|---------|
 | **Filename** | **[Airbnb_CleanData.csv](https://docs.google.com/spreadsheets/d/164MJ79fPHCDYt3I5QY5TI4j1fPSt8Dhg3D1ko--Rf-o/edit?usp=sharing)** |
+| **Data Cleaning Notebook** | **[Airbnb_Data_Cleaning.ipynb](https://colab.research.google.com/drive/1IpU9saO532VS99zbu2CB4bg3bPT4OXix?usp=sharing)** |
 | **Total Records** | **50,000** |
 | **Primary Keys** | `id`, `host_id`, `city`, `room_type` |
 | **Source of Data** | **[airbnb_top_cities.csv](https://www.kaggle.com/datasets/darkmatternet/airbnb-listings-nyc-london-paris-tokyo-and-more)** |
