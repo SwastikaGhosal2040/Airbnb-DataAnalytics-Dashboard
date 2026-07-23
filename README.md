@@ -102,26 +102,19 @@ The following table describes the columns available in the cleaned Airbnb datase
 
 ---
 
+
 # Data Cleaning Notes
 
-The following table summarizes the data preprocessing and cleaning activities performed on the Airbnb dataset before developing the dashboard.
+The following table summarizes the data cleaning and preprocessing activities performed on the Airbnb dataset before dashboard development.
 
 | Column Name | Activities |
 |-------------|------------|
-| `neighbourhood_group` | Removed the column because it contained entirely missing values and did not contribute to the analysis. |
-| `host_name` | Missing values were replaced with **"Unknown"**. |
-| `last_review` | Converted from text to **Date** format (`datetime`). Missing values were intentionally retained because they represent listings with no reviews. |
-| `scrape_date` | Converted from text to **Date** format (`datetime`). |
-| `reviews_per_month` | Verified that missing values corresponded to listings with zero reviews, then replaced missing values with **0**. |
-| `price` | Records containing missing prices were removed since price is a critical analytical attribute. |
-| `license` | Missing values were replaced with **"Not Available"**. |
-| **Entire Dataset** | Checked for duplicate records. No duplicate rows were found. |
-| **Entire Dataset** | Verified remaining missing values after cleaning. |
-| **Entire Dataset** | Generated a reproducible random sample of **50,000** records using `random_state=42`. |
-| `price` | Performed statistical analysis using descriptive statistics and quantiles to identify extreme values. |
-| `price` | Removed price outliers by retaining listings with a price less than or equal to **6188**. |
-| **Entire Dataset** | Generated a new random sample of **50,000** cleaned records after outlier removal. |
-| **Entire Dataset** | Validated dataset structure, data types, missing values, and duplicate records before export. |
-| **Entire Dataset** | Exported the final cleaned dataset as **Airbnb_CleanData.csv** for dashboard development. |
+| `neighbourhood_group` | Removed the column because it contained only missing values and did not contribute to the analysis. |
+| `host_name` | Replaced missing values with **"Unknown"** to preserve valid listing records. |
+| `last_review` | Converted the column to **DateTime** format. Missing values were intentionally retained because they represent listings without customer reviews. |
+| `scrape_date` | Converted the column to **DateTime** format for proper date-based analysis. |
+| `reviews_per_month` | Verified that missing values corresponded to listings with zero reviews and replaced them with **0**. |
+| `price` | Removed records containing missing values. Performed statistical analysis to identify outliers and retained listings with prices less than or equal to **6188**. |
+| `license` | Replaced missing values with **"Not Available"**. |
 
 ---
