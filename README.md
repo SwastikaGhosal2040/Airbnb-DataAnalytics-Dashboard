@@ -233,3 +233,105 @@ The Executive Overview dashboard provides a high-level summary of Airbnb listing
 - Encourage hosts with extremely high availability to optimize pricing during low-demand periods.
 - Identify seasonal booking opportunities to reduce prolonged vacancies.
 - Develop occupancy-focused promotional campaigns for listings with consistently high availability.
+
+
+---
+
+# Detailed Analytical Insights Dashboard
+
+The Detailed Analytical Insights dashboard explores relationships between pricing, customer reviews, minimum stay requirements, room type preferences, and city-wise listing distribution. It helps stakeholders identify booking patterns, optimize pricing strategies, evaluate market demand, and make data-driven business decisions.
+
+## Dashboard Preview
+
+![Detailed Analytical Insights Dashboard](Images/Dashboard_Page2.png)
+
+---
+
+## A. Key Insights
+
+### 1. Price vs Number of Reviews
+
+- No strong positive relationship is observed between listing price and the number of customer reviews.
+- Many moderately priced listings receive significantly more reviews than premium-priced properties.
+- Several high-priced listings have relatively low customer engagement, indicating that higher pricing does not necessarily translate into greater popularity.
+
+---
+
+### 2. Average Minimum Stay by Room Type
+
+- **Entire homes/apartments** require the longest average minimum stay (**7.53 days**).
+- **Private rooms** require an average minimum stay of **6.3 days**.
+- **Shared rooms** have a comparatively lower minimum stay requirement (**4.45 days**).
+- **Hotel rooms** offer the highest booking flexibility with the lowest average minimum stay (**2.13 days**).
+
+---
+
+### 3. Total Review Share by City
+
+- **Rome** contributes the largest share of customer reviews (**37%**).
+- **London** accounts for approximately **29.8%** of total reviews.
+- **Barcelona** contributes around **16.7%**.
+- **Bangkok** and **Amsterdam** account for smaller proportions of the overall review volume.
+
+---
+
+### 4. City & Room Type Listing Matrix
+
+- **Entire homes/apartments** represent the largest accommodation category across all cities.
+- **London** has the highest number of listings among the analyzed cities.
+- **Private rooms** form the second-largest accommodation category.
+- **Shared rooms** and **Hotel rooms** contribute only a small percentage of the total inventory.
+
+---
+
+### 5. Listing Distribution by City & Room Type
+
+- Entire homes/apartments dominate the Airbnb marketplace across all five cities.
+- London and Rome contribute the largest listing volumes.
+- Bangkok also maintains a significant market presence.
+- Barcelona and Amsterdam have comparatively smaller Airbnb inventories.
+- Hotel rooms remain the least represented accommodation type across every city.
+
+---
+
+## B. Analytical Recommendations
+
+### Price vs Number of Reviews
+
+- Focus on improving listing quality and customer experience rather than increasing prices alone.
+- Encourage hosts to improve ratings and review generation through better guest engagement.
+- Implement dynamic pricing strategies to maximize occupancy without reducing competitiveness.
+
+---
+
+### Average Minimum Stay by Room Type
+
+- Consider reducing minimum stay requirements for entire homes during low-demand periods to increase occupancy.
+- Maintain flexible booking options for hotel rooms to attract short-term travelers.
+- Evaluate seasonal minimum stay policies to balance occupancy and operational efficiency.
+
+---
+
+### Total Review Share by City
+
+- Study Rome's performance to identify factors contributing to stronger customer engagement.
+- Strengthen promotional campaigns in cities with comparatively lower review shares.
+- Encourage hosts in lower-performing markets to improve guest experience and review collection.
+
+---
+
+### City & Room Type Listing Matrix
+
+- Expand inventory in cities with strong demand while maintaining a balanced room-type distribution.
+- Promote underrepresented accommodation types where market opportunities exist.
+- Monitor listing growth to prevent oversupply within specific room categories.
+
+---
+
+### Listing Distribution by City & Room Type
+
+- Prioritize marketing and investment in cities demonstrating high marketplace activity.
+- Encourage diversification of accommodation types to provide travelers with greater choice.
+- Use city-level inventory analysis to support strategic expansion and resource allocation.
+
+---
